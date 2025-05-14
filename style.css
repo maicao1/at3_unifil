@@ -1,0 +1,45 @@
+
+
+body{
+background-color: #375C6D;
+
+}
+.v2{
+    background-color: aliceblue;
+}
+header{
+    text-align: center;
+}
+.v1{
+    text-align: center;
+}
+   
+.img1{
+
+    text-align: end;
+    display: grid;
+    grid-template-columns: 22% 50% 40%;
+    
+    
+    
+    
+}
+   
+.img2{
+
+    text-align: end;
+    display: grid;
+    
+    grid-template-columns: 50% 10% 00%;
+    
+    
+    
+}
+   
+
+
+    
+    
+    
+    
+
