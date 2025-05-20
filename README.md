@@ -1,3 +1,3 @@
 # at3_unifil
 
-O CSS esta no at3.CSS, não precisa o style.css 
+O CSS esta no at3.CSS, não precisa abaixar o style.css 
