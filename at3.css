@@ -1,0 +1,150 @@
+:root {
+    --cor-texto-header:#99A63C;
+    --cor-cabeçalho: #1e3d2f;
+    --cor-texto-branco:#FFFFFF;
+    --cor-secundaria: #3a5a40;
+    --cor-destaque: #588157;
+    --cor-clara: #f2efe8;
+    --cor-media: #dcd6cc;
+    --cor-fundo: #f4f1ea;
+    --cor-texto: #333;
+    --cor-clara-article: #e5e5e5;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color:var(--cor-fundo);
+    color:var(--cor-texto);
+    padding: 10px;  
+  }
+  
+  .cabecalho {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center ;
+    height: 400px;
+
+    color:var(--cor-texto-header);
+    background-image: url(Sem\ título.jpg);
+  }
+  
+  .logo {
+    width: 320px;     
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px; 
+  }
+  
+  .titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  nav {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto-branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 15px;
+    flex-wrap: wrap;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    
+    
+    
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: var(--cor-texto-branco);
+    font-weight: bold;
+    
+  }
+  
+  nav form {
+    display: flex;
+    gap: 10px;
+  }
+  
+
+  
+  nav button {
+    padding: 5px 10px;
+    background-color: var(--cor-destaque);
+    border: none;
+    color:var(--cor-texto-branco);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  section, aside, article {
+    padding: 30px;
+    margin-top: 20px;
+  }
+  
+  main {
+    display: flex;
+    gap: 20px;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    flex: 2;
+    background-color: var(--cor-media);
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  article {
+    background-color: var(--cor-clara-article);
+    margin-top: 10px;
+  }
+  
+  aside {
+    flex: 1;
+    
+  }
+  
+  footer {
+    background-color: var(--cor-cabeçalho);
+    color: var(--cor-texto-branco);
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .v1{
+    border-radius: 10px;
+    color: rgb(60, 60, 238);
+    background-color: rgba(10, 55, 180, 0.616);
+    
+  }
+  .v2{
+    border-radius: 10px;
+    color: rgb(247, 34, 34);
+    background-color: rgba(255, 0, 0, 0.288);
+    
+  }
